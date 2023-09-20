@@ -1,0 +1,89 @@
+@media (max-width:37.5rem){
+  /* Hide the scrollbar track */
+::-webkit-scrollbar {
+  width: 0.5rem; /* Adjust this value as needed */
+}
+
+/* Hide the scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+  
+  html{
+    overflow: hidden;
+  }
+  body{
+    overflow: hidden;
+   
+    
+  }
+  .container{
+    max-width: 40rem;
+    display: flex;
+    flex-direction: column;
+    margin: 20rem auto 0;
+  }
+  .content{
+    padding: 4rem 4rem 0 4rem;
+  }
+  .long-heading{
+    font-size: 2rem;
+    width: 100%;
+    letter-spacing: 0;
+  }
+
+  .p-head{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    width: 93%;
+  }
+  .image{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 2rem ;
+    border-top-left-radius: 2rem ;
+  }
+  .profile img{
+    width: 20%;
+    border: 0;
+  }
+  .name, .date{
+    font-size: 1.5rem;
+  }
+
+  .icon-share{
+    width: 15%;
+    z-index: 1;
+    background-color: var(--Grayish-Blue);
+    
+  }
+
+  .share-container{
+    width: 40rem;
+    height: 8rem;
+    bottom: 20%;
+    right: 16%;
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem ;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem ;
+    justify-content: start;
+    align-items: center;
+ 
+  }
+.share-container span {
+  font-size: 1.4rem;
+  color: var(--Grayish-Blue);
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+.share-container img{
+    margin: 0 1rem;
+  }
+
+
+  .triangle-down{
+    display: none;
+  }
+}
